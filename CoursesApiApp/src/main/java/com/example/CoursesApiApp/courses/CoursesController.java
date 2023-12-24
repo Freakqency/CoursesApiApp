@@ -1,6 +1,5 @@
 package com.example.CoursesApiApp.courses;
 
-import com.example.CoursesApiApp.topic.Topic;
 import com.example.CoursesApiApp.topic.TopicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -33,7 +32,7 @@ public class CoursesController {
     @PutMapping("/topics/{topicId}/courses/{courseId}")
     public void updateCourse(@RequestBody Courses courses, @PathVariable String topicId) {
         topicRepository.findById(topicId).map(topic -> {
-            courses.setTopic(topic);;
+            courses.setTopic(topic);
             return coursesRepository.save(courses);
         }).orElseThrow();
     }
