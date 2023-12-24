@@ -1,0 +1,29 @@
+----------------------------------------------------------------
+Fri Dec 22 13:17:35 EST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018c-92bf-38a7-000003072b48 
+on database directory memory:/Users/surya/Documents/CoursesApiApp/9a1f5a6a-59e5-4751-afec-1a2ae0da1302 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+Loaded from file:/Users/surya/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=21.0.1+12-29
+user.dir=/Users/surya/Documents/CoursesApiApp
+os.name=Mac OS X
+os.arch=aarch64
+os.version=14.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Dec 22 13:17:35 EST 2023:
+Shutting down instance a816c00e-018c-92bf-38a7-000003072b48 on database directory memory:/Users/surya/Documents/CoursesApiApp/9a1f5a6a-59e5-4751-afec-1a2ae0da1302 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+----------------------------------------------------------------
+Fri Dec 22 13:17:35 EST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance e66540fa-018c-92bf-38a7-000003072b48 
+on database directory memory:/Users/surya/Documents/CoursesApiApp/9a1f5a6a-59e5-4751-afec-1a2ae0da1302 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+Loaded from file:/Users/surya/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=21.0.1+12-29
+user.dir=/Users/surya/Documents/CoursesApiApp
+os.name=Mac OS X
+os.arch=aarch64
+os.version=14.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

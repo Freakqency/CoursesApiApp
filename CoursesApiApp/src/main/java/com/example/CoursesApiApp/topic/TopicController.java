@@ -17,15 +17,15 @@ public class TopicController {
     public Topic getTopic(@PathVariable String id) {
         return topicService.getTopic(id);
     }
-    @RequestMapping(method = RequestMethod.POST, value = "/topics")
+    @PostMapping("/topics")
     public void addTopic(@RequestBody Topic topic) {
         topicService.addTopic(topic);
     }
-    @RequestMapping(method = RequestMethod.PUT, value = "/topics/{id}")
+    @PutMapping("/topics/{id}")
     public void updateTopic(@RequestBody Topic topic, @PathVariable String id) {
         topicService.updateTopic(topic, id);
     }
-    @RequestMapping(method = RequestMethod.DELETE, value = "/topics/{id}")
+    @DeleteMapping("/topics/{id}")
     public void removeTopic(@PathVariable String id) {
         topicService.removeTopic(id);
     }
